@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft 365 Original – Digital Media</title>
+    <link rel="icon" type="image/x-icon" href="https://c.s-microsoft.com/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-['Inter'] bg-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <img src="https://yogya.store/wp-content/uploads/2024/10/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen-copy-1-1024x219.webp" 
+                     alt="Microsoft Logo" 
+                     class="h-6 md:h-8">
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#keuntungan" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Keuntungan</a>
+                    <a href="#aktif" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Cara Aktivasi</a>
+                    <a href="#bonus" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Spesial Bonus</a>
+                    <a href="#testimoni" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Testimoni</a>
+                    <a href="#faq" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">FAQ</a>
+                </div>
+                <!-- Mobile menu button -->
+                <button id="mobile-menu-button" class="md:hidden text-gray-500 hover:text-gray-700 focus:outline-none relative w-8 h-8">
+                    <div class="hamburger-icon absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <span class="block h-0.5 w-6 bg-current transform transition-all duration-300 ease-in-out"></span>
+                        <span class="block h-0.5 w-6 bg-current transform transition-all duration-300 ease-in-out mt-1.5"></span>
+                        <span class="block h-0.5 w-6 bg-current transform transition-all duration-300 ease-in-out mt-1.5"></span>
+                    </div>
+                </button>
+            </div>
+            
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="mobile-menu transform -translate-y-full opacity-0 transition-all duration-300 ease-in-out absolute top-full left-0 w-full md:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-sm shadow-lg border-t border-gray-100">
+                    <a href="#keuntungan" class="block px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-300">Keuntungan</a>
+                    <a href="#aktif" class="block px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-300">Cara Aktivasi</a>
+                    <a href="#bonus" class="block px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-300">Spesial Bonus</a>
+                    <a href="#testimoni" class="block px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-300">Testimoni</a>
+                    <a href="#faq" class="block px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors duration-300">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-28 md:pt-32 pb-16 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-12">
+                <div class="md:w-1/2 text-center md:text-left">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">
+                        Solusi Aplikasi Office Tanpa Biaya Bulanan
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
+                        Akses semua fitur premium Office 365 di 5 perangkat berbeda secara bersamaan
+                    </p>
+                    <a href="#cabuy" 
+                       class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold 
+                              hover:bg-blue-700 transition-all duration-300 
+                              hover:transform hover:scale-105 hover:shadow-lg
+                              focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                        Dapatkan Sekarang
+                    </a>
+                </div>
+                <div class="md:w-1/2 relative">
+                    <div class="absolute inset-0 bg-blue-500 rounded-full filter blur-3xl opacity-20 animate-pulse"></div>
+                    <img src="https://yogya.store/wp-content/uploads/2024/10/Desain-tanpa-judul-6-1024x1024.webp" 
+                         alt="Microsoft 365" 
+                         class="relative w-full rounded-2xl shadow-2xl 
+                                transform hover:scale-105 transition duration-500
+                                hover:shadow-blue-500/25">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Warning Section -->
+    <section class="py-20 bg-gradient-to-b from-white to-gray-50" id="keuntungan">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-800">
+                    Masih Menggunakan Office Bajakan?
+                </h2>
+                <p class="text-gray-600 text-lg">Hati-hati dengan risiko yang mengancam!</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <div class="absolute inset-0 bg-red-500 rounded-2xl filter blur-3xl opacity-10 animate-pulse"></div>
+                    <img src="https://yogya.store/wp-content/uploads/2024/10/Cara-Microsoft-Office-Activation-Failed-copy.webp" 
+                         alt="Warning" 
+                         class="relative w-full rounded-2xl shadow-xl transform hover:scale-105 transition duration-500">
+                </div>
+                
+                <div class="space-y-8">
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
+                        Ini Dampak Yang Akan Anda Alami Jika Semuanya Tidak Dihentikan!
+                    </h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4 p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-1">Kinerja dan Fungsi Tidak Maksimal</h4>
+                                <p class="text-gray-600 text-sm">Performa aplikasi yang lambat dan tidak stabil</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-1">Resiko Keamanan Data</h4>
+                                <p class="text-gray-600 text-sm">Data Anda rentan bocor dan diakses oleh peretas</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-1">Crash dan Error</h4>
+                                <p class="text-gray-600 text-sm">Aplikasi sering hang dan crash saat digunakan</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-1">Rentan Virus</h4>
+                                <p class="text-gray-600 text-sm">Perangkat Anda berisiko terinfeksi malware berbahaya</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="py-20 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">
+                    Lisensi Office 365 Original
+                </h2>
+                <p class="text-gray-600 text-lg">Solusi lengkap untuk produktivitas maksimal</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Fitur Premium Card -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Fitur Premium</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center mt-1">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            </span>
+                            <span class="ml-3 text-gray-600">100% Lisensi Original Microsoft</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center mt-1">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            </span>
+                            <span class="ml-3 text-gray-600">Update Berkala Mengikuti Microsoft</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center mt-1">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            </span>
+                            <span class="ml-3 text-gray-600">Bisa Dipakai Hingga 5 PC/Tablet/Smartphone</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Keamanan Card -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Keamanan</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center mt-1">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            </span>
+                            <span class="ml-3 text-gray-600">Proteksi Keamanan Ganda</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center mt-1">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            </span>
+                            <span class="ml-3 text-gray-600">AI Copilot di Skype</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center mt-1">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            </span>
+                            <span class="ml-3 text-gray-600">Fitur AI Ads-ins</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Dukungan Card -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Dukungan</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center mt-1">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            </span>
+                            <span class="ml-3 text-gray-600">Instalasi Hanya Butuh 5-10 Menit</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center mt-1">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            </span>
+                            <span class="ml-3 text-gray-600">Dukungan Selamanya</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="flex-shrink-0 w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center mt-1">
+                                <span class="w-2 h-2 bg-blue-600 rounded-full"></span>
+                            <span class="ml-3 text-gray-600">Gunakan Untuk Offline & Online</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-20 bg-gradient-to-b from-white to-gray-50" id="cabuy">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">
+                        Pilih Paket Yang Sesuai Untuk Anda!
+                    </h2>
+                    <p class="text-gray-600 text-lg">Tingkatkan efisiensi kerja Anda dengan lisensi resmi</p>
+                </div>
+
+                <!-- Pricing Cards -->
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Random Username Package -->
+                    <div class="relative bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300">
+                        <!-- Decorative background -->
+                        <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-blue-50 to-transparent opacity-50"></div>
+                        
+                        <!-- Content -->
+                        <div class="relative p-8">
+                            <!-- Badge -->
+                            <div class="absolute top-6 right-6">
+                                <div class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-semibold">
+                                    Hemat
+                                </div>
+                            </div>
+
+                            <!-- Package Title -->
+                            <div class="mb-6">
+                                <h3 class="text-2xl font-bold text-gray-800 mb-2">Random Username</h3>
+                                <p class="text-gray-600">Username akan digenerate otomatis</p>
+                            </div>
+
+                            <!-- Price -->
+                            <div class="text-center mb-6">
+                                <div class="mb-2">
+                                    <span class="line-through text-gray-400 text-lg">Rp 299.000,-</span>
+                                </div>
+                                <div class="flex items-center justify-center gap-2">
+                                    <span class="text-4xl font-bold text-blue-600">Rp 99.000,-</span>
+                                </div>
+                                <p class="text-gray-500 mt-2">Sekali bayar selamanya</p>
+                            </div>
+
+                            <!-- Features -->
+                            <div class="space-y-3 mb-8">
+                                <div class="flex items-center space-x-3">
+                                    <div class="flex-shrink-0 w-5 h-5 bg-green-100 rounded-full flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 text-sm">Username Random Otomatis</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <div class="flex-shrink-0 w-5 h-5 bg-green-100 rounded-full flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 text-sm">Akses 5 Perangkat</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <div class="flex-shrink-0 w-5 h-5 bg-green-100 rounded-full flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 text-sm">Semua Fitur Office 365</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <div class="flex-shrink-0 w-5 h-5 bg-green-100 rounded-full flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 text-sm">Support 24/7</span>
+                                </div>
+                            </div>
+
+                            <!-- CTA Button -->
+                            <button class="w-full bg-blue-600 text-white py-3 rounded-xl font-semibold 
+                                       hover:bg-blue-700 transform hover:scale-105 transition-all duration-300
+                                       focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2
+                                       shadow-lg hover:shadow-xl">
+                                Pilih Paket Ini
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Custom Username Package -->
+                    <div class="relative bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300 border-2 border-blue-500">
+                        <!-- Decorative background -->
+                        <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-blue-50 to-transparent opacity-50"></div>
+                        
+                        <!-- Content -->
+                        <div class="relative p-8">
+                            <!-- Badge -->
+                            <div class="absolute top-6 right-6">
+                                <div class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold animate-pulse">
+                                    Populer
+                                </div>
+                            </div>
+
+                            <!-- Package Title -->
+                            <div class="mb-6">
+                                <h3 class="text-2xl font-bold text-gray-800 mb-2">Custom Username</h3>
+                                <p class="text-gray-600">Username sesuai keinginan Anda</p>
+                            </div>
+
+                            <!-- Price -->
+                            <div class="text-center mb-6">
+                                <div class="mb-2">
+                                    <span class="line-through text-gray-400 text-lg">Rp 399.000,-</span>
+                                </div>
+                                <div class="flex items-center justify-center gap-2">
+                                    <span class="text-4xl font-bold text-blue-600">Rp 129.000,-</span>
+                                </div>
+                                <p class="text-gray-500 mt-2">Sekali bayar selamanya</p>
+                            </div>
+
+                            <!-- Features -->
+                            <div class="space-y-3 mb-8">
+                                <div class="flex items-center space-x-3">
+                                    <div class="flex-shrink-0 w-5 h-5 bg-green-100 rounded-full flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 text-sm">Username Custom Sesuai Keinginan</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <div class="flex-shrink-0 w-5 h-5 bg-green-100 rounded-full flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 text-sm">Akses 5 Perangkat</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <div class="flex-shrink-0 w-5 h-5 bg-green-100 rounded-full flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 text-sm">Semua Fitur Office 365</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <div class="flex-shrink-0 w-5 h-5 bg-green-100 rounded-full flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 text-sm">Support Premium 24/7</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <div class="flex-shrink-0 w-5 h-5 bg-green-100 rounded-full flex items-center justify-center">
+                                        <svg class="w-3 h-3 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 text-sm">Bonus Template & Tools</span>
+                                </div>
+                            </div>
+
+                            <!-- CTA Button -->
+                            <button class="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 rounded-xl font-semibold 
+                                       hover:from-blue-700 hover:to-blue-800 transform hover:scale-105 transition-all duration-300
+                                       focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2
+                                       shadow-lg hover:shadow-xl">
+                                Pilih Paket Ini
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Info -->
+                <div class="mt-12 text-center">
+                    <p class="text-gray-600 mb-4">* Garansi uang kembali 2x lipat jika tidak original</p>
+                    
+                    <!-- Timer -->
+                    <div class="bg-white rounded-xl p-6 shadow-lg inline-block">
+                        <p class="text-gray-600 font-medium mb-2">Sisa Waktu Promo:</p>
+                        <div id="countdown" class="text-2xl font-bold text-blue-600"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-gradient-to-b from-gray-50 to-white overflow-hidden" id="testimoni">
+        <div class="container mx-auto px-4">
+            <!-- Section Header -->
+            <div class="max-w-4xl mx-auto text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">
+                    Testimoni Pengguna Office 365
+                </h2>
+                <p class="text-gray-600 text-lg">Bergabung dengan ribuan pengguna yang puas</p>
+            </div>
+
+            <!-- Testimonials Grid -->
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Testimonial Card 1 -->
+                <div class="group">
+                    <div class="relative bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                        <!-- Decorative elements -->
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-blue-600"></div>
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-full -mr-10 -mt-10 opacity-50"></div>
+                        
+                        <!-- Content -->
+                        <div class="p-6">
+                            <div class="relative aspect-[3/4] mb-6 overflow-hidden rounded-xl">
+                                <img src="https://yogya.store/wp-content/uploads/2024/10/WhatsApp-Image-2024-01-21-at-12.54.15_0408aca3-461x1024.webp" 
+                                     alt="Testimonial 1" 
+                                     class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-105">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial Card 2 -->
+                <div class="group">
+                    <div class="relative bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                        <!-- Decorative elements -->
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-blue-600"></div>
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-full -mr-10 -mt-10 opacity-50"></div>
+                        
+                        <!-- Content -->
+                        <div class="p-6">
+                            <div class="relative aspect-[3/4] mb-6 overflow-hidden rounded-xl">
+                                <img src="https://yogya.store/wp-content/uploads/2024/10/WhatsApp-Image-2024-02-01-at-11.03.35_6ecf1f0f-2-1-461x1024.webp" 
+                                     alt="Testimonial 2" 
+                                     class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-105">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial Card 3 -->
+                <div class="group">
+                    <div class="relative bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                        <!-- Decorative elements -->
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-blue-600"></div>
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-full -mr-10 -mt-10 opacity-50"></div>
+                        
+                        <!-- Content -->
+                        <div class="p-6">
+                            <div class="relative aspect-[3/4] mb-6 overflow-hidden rounded-xl">
+                                <img src="https://yogya.store/wp-content/uploads/2024/10/WhatsApp-Image-2024-01-11-at-22.27.08_745c5ad2-461x1024.webp" 
+                                     alt="Testimonial 3" 
+                                     class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-105">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trust Indicators -->
+            <div class="mt-16 text-center">
+                <p class="text-gray-600 font-medium">Dipercaya oleh ribuan pengguna di seluruh Indonesia</p>
+                <div class="flex justify-center items-center space-x-8 mt-6">
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <span class="ml-2 text-gray-700 font-semibold">4.9/5 Rating</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        <span class="ml-2 text-gray-700 font-semibold">2000+ Pengguna Aktif</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gradient-to-b from-white to-gray-50" id="faq">
+        <div class="container mx-auto px-4">
+            <!-- Section Header -->
+            <div class="max-w-4xl mx-auto text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">
+                    Pertanyaan Yang Sering Diajukan
+                </h2>
+                <p class="text-gray-600 text-lg">Temukan jawaban untuk pertanyaan umum tentang Microsoft 365</p>
+            </div>
+
+            <!-- FAQ Accordion -->
+            <div class="max-w-3xl mx-auto">
+                <div class="space-y-4">
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item bg-white rounded-2xl shadow-lg overflow-hidden">
+                        <button class="faq-question w-full px-6 py-4 text-left focus:outline-none">
+                            <div class="flex items-center justify-between">
+                                <h3 class="text-lg font-semibold text-gray-800">
+                                    Berapa banyak komputer yang dapat digunakan untuk satu Lisensi?
+                                </h3>
+                                <svg class="w-6 h-6 text-blue-600 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </div>
+                        </button>
+                        <div class="faq-answer px-6 pb-4 text-gray-600 hidden">
+                            <p>Anda dapat menggunakannya hingga 5 komputer, termasuk:</p>
+                            <ul class="list-disc list-inside mt-2 ml-4 space-y-1">
+                                <li>Windows PC</li>
+                                <li>MAC</li>
+                                <li>Android</li>
+                                <li>IOS</li>
+                                <li>Chromebook</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item bg-white rounded-2xl shadow-lg overflow-hidden">
+                        <button class="faq-question w-full px-6 py-4 text-left focus:outline-none">
+                            <div class="flex items-center justify-between">
+                                <h3 class="text-lg font-semibold text-gray-800">
+                                    Lisensinya berapa lama, apakah satu tahun?
+                                </h3>
+                                <svg class="w-6 h-6 text-blue-600 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </div>
+                        </button>
+                        <div class="faq-answer px-6 pb-4 text-gray-600 hidden">
+                            <p>Kami informasikan bahwa lisensi tersebut:</p>
+                            <ul class="list-disc list-inside mt-2 ml-4">
+                                <li>Tidak memiliki batas waktu</li>
+                                <li>Berlaku seumur hidup</li>
+                                <li>Tidak perlu perpanjangan</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item bg-white rounded-2xl shadow-lg overflow-hidden">
+                        <button class="faq-question w-full px-6 py-4 text-left focus:outline-none">
+                            <div class="flex items-center justify-between">
+                                <h3 class="text-lg font-semibold text-gray-800">
+                                    Apakah Bisa Digunakan Offline?
+                                </h3>
+                                <svg class="w-6 h-6 text-blue-600 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </div>
+                        </button>
+                        <div class="faq-answer px-6 pb-4 text-gray-600 hidden">
+                            <p>Ya, lisensi aplikasi Microsoft 365 original dapat digunakan dalam dua mode:</p>
+                            <ul class="list-disc list-inside mt-2 ml-4">
+                                <li>Mode Online - dengan fitur lengkap dan sinkronisasi</li>
+                                <li>Mode Offline - tetap dapat bekerja tanpa koneksi internet</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="faq-item bg-white rounded-2xl shadow-lg overflow-hidden">
+                        <button class="faq-question w-full px-6 py-4 text-left focus:outline-none">
+                            <div class="flex items-center justify-between">
+                                <h3 class="text-lg font-semibold text-gray-800">
+                                    Bagaimana dengan dukungan teknis?
+                                </h3>
+                                <svg class="w-6 h-6 text-blue-600 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </div>
+                        </button>
+                        <div class="faq-answer px-6 pb-4 text-gray-600 hidden">
+                            <p>Kami menyediakan:</p>
+                            <ul class="list-disc list-inside mt-2 ml-4">
+                                <li>Dukungan teknis 24/7</li>
+                                <li>Panduan instalasi lengkap</li>
+                                <li>Video tutorial step-by-step</li>
+                                <li>Garansi 100% uang kembali</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Support -->
+            <div class="mt-12 text-center">
+                <p class="text-gray-600">Masih punya pertanyaan?</p>
+                <a href="#" class="inline-flex items-center mt-2 text-blue-600 hover:text-blue-700 font-medium">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                    </svg>
+                    Hubungi Tim Support
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <img src="https://yogya.store/wp-content/uploads/2024/10/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen-copy-1-300x64.webp" alt="Microsoft Logo" class="h-8 mb-6 md:mb-0">
+                <div class="text-center md:text-right">
+                    <p class="text-sm text-gray-400">Office 365 Original © 2023. All right reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>

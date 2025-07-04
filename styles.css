@@ -1,0 +1,139 @@
+/* Custom styles */
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Animations */
+.hover\:scale-105:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Custom shadows */
+.custom-shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Custom transitions */
+.transition-all {
+    transition: all 0.3s ease;
+}
+
+/* Custom spacing for sections */
+section {
+    padding: 80px 0;
+}
+
+/* Hero section specific styles */
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Testimonials section */
+.testimonial-card {
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Price tag styles */
+.price-tag {
+    position: relative;
+    display: inline-block;
+}
+
+.price-tag::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    right: -5%;
+    height: 2px;
+    background-color: #EF4444;
+    transform: rotate(-10deg);
+}
+
+/* Button hover effects */
+.btn-primary {
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* FAQ accordion styles */
+.faq-item {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.faq-question {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #F9FAFB;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #F3F4F6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+    
+    section {
+        padding: 40px 0;
+    }
+    
+    .hero-content {
+        text-align: center;
+    }
+}
+
+/* Timer styles */
+.countdown {
+    font-family: 'Inter', monospace;
+    font-weight: 600;
+    color: #1F2937;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #F3F4F6;
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+/* Navigation styles */
+.nav-link {
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #2563EB;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
